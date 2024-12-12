@@ -3,98 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agapito</title>
+    <title>Lei Da Atração </title>
+    <meta name="description" content="Descubra a Lei da Atração e como seus pensamentos e emoções podem influenciar sua realidade. Aprenda a manifestar seus desejos e transformar sua vida.">
+    <meta name="keywords" content="Lei da Atração, manifestação, pensamentos positivos, gratidão, crescimento pessoal">
+    <meta name="author" content="Fernanda Gasparelly">
+    <meta property="og:description" content="Explore como a Lei da Atração pode mudar sua vida através de pensamentos e emoções.">
+    <meta property="og:image" content="./src/img/principal.webp"> <!-- Substitua pela URL da imagem -->
+    <meta property="og:url" content="./src/img/principal.webp">
+    <link rel="icon" type="image/x-icon" href="./src/img//icone.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    
+    <script src="script.js" defer></script>
 </head>
+
+
 <body>
     <header>
         <div class="logo">
-            <img src="src/img/logo.png" alt="Logo do Site">
+            <img src="src/img/principal.webp" alt="Logo do Site">
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="localizacao.html">Localização</a></li>
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Sobre</a></li>
+                <li><a href="videos.html" class="nav-link">Videos</a></li>
+                <li><a href="grid.html" class="nav-link">Galeria</a></li>
+                <li><a href="contato.html" class="nav-link">Contato</a></li>
+                <li><a href="localizacao.html" class="nav-link">Localização</a></li>
             </ul>
         </nav>
     </header>
-
     <div class="intro">
-        <h1>Fernanda Agapito</h1>
-        <p>Desenvolvedora Web</p>
+        <h1><strong>Lei da Atração</strong></h1>
     </div>
-
-    <section class="profile-photo">
-      <div class="photo-container">
-          <img src="src/img/eu.png" alt="Foto de Fernanda Agapito">
-      </div>
-    </section>
-
-
-
-  
-  
 
     <section class="section">
         <div class="text-section">
-            <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <a href="#" class="button">Saiba mais</a>
+          
+            <p>A Lei da Atração é um princípio universal que sugere que nossos pensamentos e emoções podem influenciar diretamente nossa realidade. A teoria por trás dessa lei é simples: aquilo em que focamos nossa energia e atenção tende a se manifestar em nossas vidas. Se mantivermos pensamentos positivos e visualizarmos nossos objetivos com clareza, atraímos experiências, pessoas e oportunidades alinhadas com esses desejos.</p>
 
-       
+            <p>O conceito foi popularizado por obras como <em>"O Segredo"</em> de Rhonda Byrne, mas é fundamentado em antigos ensinamentos espirituais e em conceitos de física quântica, que indicam que tudo no universo está interconectado por frequências energéticas. Outros autores, como Joe Dispenza e Esther Hicks, aprofundam a ideia de que ao vibrarmos em harmonia com nossas intenções, podemos manifestar mudanças significativas em nossa vida.</p>
+
+            <p>Além de pensamentos positivos, a Lei da Atração também enfatiza a importância de:</p>
             
-              
+                <strong>Gratidão</strong>
+                <br>
+                <br>
+                <strong>Ação inspirada</strong>
+                <br>
+                <br>
+                <strong>Alinhamento emocional</strong>
+                <br>
+                <br>
+           
+            <p>Esses elementos são chaves para criar uma realidade mais próspera e satisfatória. Ao entender e aplicar esses princípios, é possível transformar aspectos importantes da vida, como finanças, saúde, relacionamentos e crescimento pessoal.</p>
         </div>
     </section>
 
-    
-    
-    <div class="gallery">
-        <h2>Galeria</h2>
-        <div class="gallery-items">
-            <div>
-                <img src="src/img/generation.png" alt="Imagem 1">
-                <div class="description">Generation Brasil</div>
-                
+
+    <div id="carousel" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_0.jpg" alt="">
+
             </div>
-            <div>
-                <img src="src/img/b2m.png" alt="Imagem 2">
-                <div class="description">B2 Mamy</div>
-                
+            <div class="carousel-item">
+                <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_2.jpg" alt="">
+
             </div>
-            <div>
-                <img src="src/img/desco.png" alt="Imagem 3">
-                <div class="description">Descodificadas</div>
-                
+            <div class="carousel-item">
+                <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_3.jpg" alt="">
+
             </div>
         </div>
+        <!--<div class="carousel-controls">
+            <button class="prev-btn">&lt;</button>
+            <button class="next-btn">&gt;</button>
+        </div>-->
     </div>
-  
-  
-    <section class="section">
-        <div class="video">
-            <h2>Vídeo</h2>
-            <iframe src="https://www.youtube.com/embed/-SG5AskxCFY?si=i2LgHy-p-VXB9DBr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <section class="gallery">
+        <div class="gallery-items">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_0.jpg" alt="Lei da Atração 1">
+                        <h3>Manifestação de Abundância</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>A manifestação da abundância através da Lei da Atração nos ensina que ao mantermos pensamentos positivos e gratidão, atraímos prosperidade em todas as áreas da vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_2.jpg" alt="Lei da Atração 2">
+                        <h3>Poder do Pensamento</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>O poder do pensamento através da Lei da Atração nos ensina que ao mantermos pensamentos positivos e gratidão, atraímos prosperidade em todas as áreas da vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_3.jpg" alt="Lei da Atração 3">
+                        <h3>Energia Positiva</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>A energia positiva através da Lei da Atração nos ensina que ao mantermos pensamentos positivos e gratidão, atraímos prosperidade em todas as áreas da vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_0.jpg" alt="Lei da Atração 4">
+                        <h3>Transformação Interior</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>A transformação interior através da Lei da Atração nos ensina que ao mantermos pensamentos positivos e gratidão, atraímos prosperidade em todas as áreas da vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_2.jpg" alt="Lei da Atração 5">
+                        <h3>Conexão Universal</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>A conexão universal através da Lei da Atração nos ensina que ao mantermos pensamentos positivos e gratidão, atraímos prosperidade em todas as áreas da vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./src/img/Leonardo_Kino_XL_An_artistic_representation_of_a_figure_powerf_3.jpg" alt="Lei da Atração 6">
+                        <h3>Poder da Gratidão</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>O poder da gratidão através da Lei da Atração nos ensina que ao mantermos pensamentos positivos e gratidão, atraímos prosperidade em todas as áreas da vida.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-      <p>&copy; 2024 By Fernanda Agapito</p>
-      
-      <div class="social-icons-footer">
-          <a href="https://www.linkedin.com/in/fernandaagapito/" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/agapitoo" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github"></i>
-          </a>
-          
-      </div>
-  </footer>
-  
+        <div class="footer-content">
+            <p class="copyright">&copy; 2024 By Gasparelly</p>
+            <div class="social-icons-footer">
+                <a href="https://www.linkedin.com/in" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/agapitoo" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://wa.me/11978312752" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Fixed Icon
+    <a href="https://wa.me/11978312752" class="whatsapp-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp fa-2x"></i>
+    </a> -->
+
 </body>
 </html>
